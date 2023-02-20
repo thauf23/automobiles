@@ -1,0 +1,14 @@
+/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower:400');
+
+
+@font-face {
+    font-family: "Gothic+A1";
+    src: url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900');
+}
+
+h1{
+    font-family: "Gothic+A1";
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
