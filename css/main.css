@@ -1,8 +1,4 @@
 @import url(/css/font.css);
-/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900'); */
-/* @import url('https://fonts.googleapis.com/css?family=Gamja+Flower:400'); */
-/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900'); */
-/* @import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900'); */
 
 body{
     width: 100%;
@@ -14,7 +10,6 @@ body{
     background-color: #fff;
     margin: 0 auto;
 }
-@media(max-width:768px){}
 
 /* header */
 header{
@@ -37,15 +32,15 @@ header .header_box{
     /* border: 1px solid rebeccapurple; */
 }
 header div.header_box .header_logo{
-    width: 50%;
+    width: 100%;
     padding: 72px 0 18px;
     /* padding-top: 32px; */
         /* erase */
         /* border: 1px solid rebeccapurple; */
 }
 header div.header_box .header_logo h1{
-    text-align: left;
-    padding-left: 20px;
+    text-align: right;
+    padding-left: 30px;
     font-family: 'Gothic A1', sans-serif;
     font-size: 32px;
     font-weight: 900;
@@ -55,7 +50,7 @@ header div.header_box .header_logo h1{
 
 /* phone */
 header .header_box .header_phone{
-    width: 50%;
+    width: 100%;
     position: relative;
     /* erase */
     /* border: 1px solid rebeccapurple; */
@@ -63,9 +58,12 @@ header .header_box .header_phone{
 header .header_box .header_phone a{
     position: absolute;
     top: -110px;
-    right: -92%;
+    right: 30px;
         /* erase */
     /* border: 1px solid rebeccapurple; */
+}
+header .header_box .header_phone a h1{
+    display: inline-block;
 }
 header .header_box .header_phone a img{
     width: 90px;
@@ -110,6 +108,9 @@ header .header_box .header_phone a strong{
 }
 /* footer_warp */
 #footer_warp{}
+
+
+@media(max-width:768px){}
 
 /* 해상도 320px 이상 또는 768px 미만 -> 스마트폰
 해상도 768px 이상 또는 1024px 미만 -> 태블릿
